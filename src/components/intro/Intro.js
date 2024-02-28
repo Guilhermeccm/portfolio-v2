@@ -26,7 +26,9 @@ function Intro() {
                     </a>
                 </div>
             </div>
-            <div className='mouse-scroll'></div>
+            <div className='mouse-scroll'>
+                <div className='mouse'></div>
+            </div>
      </section>
   )
 }
