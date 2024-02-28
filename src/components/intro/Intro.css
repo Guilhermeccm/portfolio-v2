@@ -1,0 +1,86 @@
+.intro-section {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.857), rgba(0,0,0,0.207)), url(../../assets/common-bg.svg);
+    background-position: center ;
+    min-height: 800px;
+}
+
+.middle-intro-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 92%;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    color: #FFF;
+    font-size: 21px;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.cta {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button {
+    padding: 1rem 5rem;
+    text-decoration: none;
+    font-size: 20px;
+    background: #FFF;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+}
+
+.button-intro:hover {
+    transform: translateY(-4px);
+    transition: transform 0.3s ease-out;
+}
+
+.socials {
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    border: 2px solid #eee;
+    transform: translateY(-50%);
+    height: 128px;
+}
+
+.socials-item {
+    width: 2.1rem;
+}
+
+.social-icon {
+    width: 100%;
+}
+
+.social-icon-a {
+    width: 100%;
+    display: block;
+    padding: 0.8rem;
+    border-bottom: 2px solid #eee;
+}
+
+.social-icon-a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transition: background 0.3s;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

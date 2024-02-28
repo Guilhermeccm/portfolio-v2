@@ -3,7 +3,7 @@ nav {
     padding-top: 10px;
     padding-right: 50px;
     padding-bottom: 10px;
-    background-color: goldenrod;
+    background-color: #FFF;
     display: flex;
     justify-content: space-between;
 }
@@ -16,26 +16,34 @@ nav {
     transition: color 0.3s;
 }
 
+.left-content:hover {
+    color: red;
+
+    transition: color 0.3s;
+}
+
 .span {
-    padding-left: 10px;
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
+
+.logo-container {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 1.5rem;
+}
+
 .logo {
-    width: 50px;
-    border-radius: 50%;
+    width: 100%;
+    height: 100%;
     background-color: grey;
     object-fit: cover;
     object-position: center;
-    border: 1px solid white;
-    
-}
-
-.right-content {
-
 }
 
 ul {
@@ -44,6 +52,21 @@ ul {
 }
 li {
     display: list-item;
-    text-align: -webkit-match-parent;
+    text-align: inherit;
     list-style: none;
+    padding-top: 2px;
+}
+
+
+
+.links {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.links:hover {
+    color: red;
+    transition: color 0.3s;
 }
