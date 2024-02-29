@@ -10,24 +10,93 @@
     width: max-content;
     list-style: none;
     display: block;
-
+    margin-left: 200px;
     li {
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-    position: relative;
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    width: 100%;
-    height: 42px;
-    padding: 0px 20px 2px;
-    border-left: 2px solid navy;
-    background-color: transparent;
-    text-align: left;
-    white-space: nowrap;
-    cursor: pointer;
+        margin-bottom: 20px;
+        text-decoration: none;
+        text-decoration-skip-ink: auto;
+        position: relative;
+        transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+        display: flex;
+        width: 100%;
+        height: 42px;
+        padding: 0px 20px 2px;
+        border-left: 2px solid blue;
+        background-color: transparent;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    li:hover {
+
     }
 }
 
+.inner {
+    display: flex;
+}
 
+.experience-details {
+    position: relative;
+    width: 100%;
+    margin-left: 40px;
+    height: auto;
+    padding: 60px 5px;
+}
+
+.experience-details h3 {
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight: 500;    
+    line-height: 1.3;
+}
+
+.company {
+    color: brown;
+}
+
+.inline-link {
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    display: inline-block;
+    position: relative;
+    color: brown;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.inline-link::after {
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    content: "";
+    display: block;
+    width: 0px;
+    height: 1px;
+    position: relative;
+    bottom: 0.37em;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.date {
+    margin-bottom: 25px;
+    color: grey;
+    font-size: 16px;
+}
+
+.experience-ul {
+    display: list-item;
+    list-style: none;
+}
+
+.description {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: grey;
+}
+
+.description::before {
+    content: "▹";
+    position: absolute;
+    left: 3px;
+    color: blue;
+}

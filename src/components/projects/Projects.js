@@ -8,7 +8,7 @@ function projects() {
     const projectName3 = "Project 3";
   
   return (
-    <section className='projects-section'>
+    <section id='projects'  className='projects-section'>
         <div className='main-container'>
             <h2 className='heading-2-projects'>
                 <span className='heading-sec-main'>Projects</span>

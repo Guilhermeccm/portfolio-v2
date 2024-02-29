@@ -1,3 +1,10 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.1);
+}
+
 nav {
     padding-left: 50px;
     padding-top: 10px;
@@ -6,6 +13,7 @@ nav {
     background-color: #FFF;
     display: flex;
     justify-content: space-between;
+
 }
 
 .left-content {
