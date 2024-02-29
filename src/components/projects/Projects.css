@@ -1,0 +1,51 @@
+.projects-section {
+    padding: 8rem 0;
+}
+
+.heading-2-projects {
+    margin-bottom: 10rem;
+}
+
+.projects-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 2rem;
+    margin-bottom: 10rem;
+}
+
+.projects-row-image {
+    overflow: hidden;
+}
+
+.laptop-img {
+    width: 650px;
+    display: block;
+    object-fit: cover;
+}
+
+.projects-row-content {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projects-row-content-title {
+    font-weight: 700;
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+.projects-row-content-description {
+    color: grey;
+    font-size: 1.2rem;
+    max-width: 50rem;
+    line-height: 1.7;
+    margin-bottom: 2.4rem;
+}
+
+.button:hover {
+    transform: translateY(-4px);
+    transition: 0.3s ease-in-out;
+}
