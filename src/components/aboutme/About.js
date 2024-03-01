@@ -4,8 +4,8 @@ import "./About.css"
 
 function About() {
   return (
-    <section className='about-section'>
-        <div className='main-container'>
+    <section id='about' className='about-section'>
+        <div  className='main-container'>
             <h2 className='heading-2'>
                  <span className='heading-sec-main'>About Me</span>
                  <span className='heading-sec-sub'>I'm a BE Computer Science and Engineering finalist @ NOVA | School Of Science And Technology</span>

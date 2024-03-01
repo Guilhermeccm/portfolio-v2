@@ -25,9 +25,9 @@ nav {
 }
 
 .left-content:hover {
-    color: red;
-
+    color: #0062b9;
     transition: color 0.3s;
+    scroll-behavior: smooth;
 }
 
 .span {
@@ -58,13 +58,13 @@ ul {
     display: flex;
     gap: 50px
 }
+
 li {
     display: list-item;
     text-align: inherit;
     list-style: none;
     padding-top: 2px;
 }
-
 
 
 .links {
@@ -75,6 +75,11 @@ li {
 }
 
 .links:hover {
-    color: red;
+    color: #0062b9;
     transition: color 0.3s;
 }
+
+#projects, #about {
+    scroll-behavior: smooth;
+}
+

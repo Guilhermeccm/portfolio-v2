@@ -9,15 +9,16 @@ function Nav() {
       <nav className='nav'>
           <div className='left-content'>
             <div className='logo-container'>
-              <img className='logo' src={img} alt='Logo'/>
+              <a href='#'><img className='logo' src={img} alt='Logo'/></a>
             </div>
-            <span className='span'>Guilherme Matos</span>
+            <a className='links' href='#'><span className='span'>Guilherme Matos</span></a>
           </div>
           <div className='right-content'>
               <ul>
                   <li><a className="links" href='#'>Home</a></li>
                   <li><a className="links" href='#about'>About</a></li>
                   <li><a className="links" href='#projects'>Projects</a></li>
+                  <li><a className='links' href='#experience'>Experience</a></li>
                   <li><a className="links" href='#contact'>Contact</a></li>
               </ul>
           </div>

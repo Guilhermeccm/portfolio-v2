@@ -5,6 +5,7 @@
 
 .experience-items {
     margin-top: 100px;
+    font-weight: 500;
     position: relative;
     z-index: 3;
     width: max-content;
@@ -18,30 +19,44 @@
         position: relative;
         transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
         display: flex;
-        width: 100%;
-        height: 42px;
+        height: 43px;
         padding: 0px 20px 2px;
-        border-left: 2px solid blue;
+        border-left: 2px solid #0062b9;
         background-color: transparent;
         white-space: nowrap;
         cursor: pointer;
+        
     }
 
     li:hover {
-
+        background: rgba(0, 0, 0, 0.05);
+        transition: 0.3s ease-in-out;
+       
     }
 }
 
+
+
+
+
 .inner {
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 250px;
 }
 
 .experience-details {
     position: relative;
-    width: 100%;
+    width: auto;
     margin-left: 40px;
     height: auto;
     padding: 60px 5px;
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: #0062b9;
+    border-left: 20px;
+    border-right: 20px;
+
 }
 
 .experience-details h3 {
@@ -52,7 +67,7 @@
 }
 
 .company {
-    color: brown;
+    color: #0062b9;
 }
 
 .inline-link {
@@ -60,7 +75,7 @@
     text-decoration-skip-ink: auto;
     display: inline-block;
     position: relative;
-    color: brown;
+    color: #0062b9;
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 
@@ -98,5 +113,9 @@
     content: "▹";
     position: absolute;
     left: 3px;
-    color: blue;
+    color: #0062b9;
+}
+
+.work-title {
+    margin-top: 7px;
 }

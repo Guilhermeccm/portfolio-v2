@@ -28,7 +28,7 @@ function Experience({active, setActive}) {
                             <ul className='experience-items'>
                                 {experienceItems.map((item) => {
                                     return<li key={item.id} onClick={() => handleExperienceSelection(item.id)} className={active === item.id ? "active" : ""}>    
-                                    <span>{item.title}</span>
+                                    <span className='work-title'>{item.title}</span>
                                     </li>
                                 })}
                             </ul>
