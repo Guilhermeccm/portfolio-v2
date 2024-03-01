@@ -1,0 +1,47 @@
+footer {
+    background: black;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.main-container {
+    margin: auto;
+    max-width: 80rem;
+    width: 92%;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 7rem;
+}
+
+.left-footer {
+    width: 40%;
+    order: 1;
+    max-width: 30rem;
+}
+
+.footer-message {
+    margin-top: 2rem;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.footer-name {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.right-footer {
+    order: 2;
+}
+.footer-icon {
+    margin-top: 1.2rem;
+}
+
+.social-icon-footer {
+    width: 2rem;
+    margin-right: 1rem;
+}

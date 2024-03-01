@@ -1,3 +1,7 @@
+.experience-section {
+    padding-top: 90px;
+}
+
 .experience-list {
     display: flex;
     min-height: 340px;
@@ -31,18 +35,14 @@
     li:hover {
         background: rgba(0, 0, 0, 0.05);
         transition: 0.3s ease-in-out;
-       
     }
 }
-
-
-
 
 
 .inner {
     display: flex;
     margin-top: 100px;
-    margin-bottom: 250px;
+    margin-bottom:100px;
 }
 
 .experience-details {

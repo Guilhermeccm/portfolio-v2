@@ -6,6 +6,7 @@ import Intro from './components/intro/Intro';
 import Nav from './components/nav/Nav';
 import Projects from "./components/projects/Projects";
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Projects/>
       <Experience active={active} setActive={setActive}/>
       <Contact/>
+      <Footer/>
     </div>
       
   );

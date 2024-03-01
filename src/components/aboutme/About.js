@@ -36,7 +36,17 @@ function About() {
                         <div className='skills-skill'>SQL</div>
                         <div className='skills-skill'>C</div>
                     </div>
+                    <h3 className='about-me-title'>Other Skills</h3>
+                    <div className='skills'>
+                        <div className='skills-skill'>Scrum</div>
+                        <div className='skills-skill'>Maven</div>
+                        <div className='skills-skill'>Tomcat</div>
+                        <div className='skills-skill'>Google Cloud</div>
+                        <div className='skills-skill'>UX/UI</div>
+                        <div className='skills-skill'>Figma</div>
+                    </div>
                 </div>
+                
             </div>
           
         </div>
