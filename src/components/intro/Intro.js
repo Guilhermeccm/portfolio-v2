@@ -7,8 +7,8 @@ function Intro() {
   return (
     <section className='intro-section'>
             <div className='middle-intro-section'>
-                <h1>Hi! My name is Guilherme</h1>
-                <h4>I like to innovate and create things</h4>
+                <h1>Hey there! I'm Guilherme</h1>
+                <h4>I like to code revolutionary projects </h4>
                 <div className='cta'>
                     <a href='#projects' className='button button-intro'>Projects</a>
                 </div>
