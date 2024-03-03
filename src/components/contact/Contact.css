@@ -46,10 +46,4 @@ form {
 
 .submit {
     cursor: pointer;
-    border: none;
-}
-
-.submit:hover {
-    color: #333;
-    transition: color 0.3s ease;
 }
