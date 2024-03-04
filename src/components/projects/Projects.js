@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import computer from "../../assets/project-mockup-example.jpeg"
-import rafastuff from "../../assets/Projeto_RafaStuff.png"
+import rafastuff from "../../assets/RafaPortfolio.png"
+import finTracker from "../../assets/Financial-Tracker.png"
+import myportfolio from "../../assets/MyPortfolio.png"
 import "./Projects.css"
 
 function Projects() {
@@ -9,7 +11,7 @@ function Projects() {
         {
             name:  "Financial Tracker",
             description: "This is the first Full-Stack project I've built using the framework React. It helped me understand the basics of it and gave me an idea on how to build some really cool stuff for the future.",
-            image: computer,
+            image: finTracker,
             link: "https://github.com/Guilhermeccm/financial-tracker"
         },
         {
@@ -20,8 +22,8 @@ function Projects() {
         },
         {
             name: "My Portfolio",
-            description: "This portfolio website is also considered one my projects. Using React I was able to create things that HTML and CSS couldn't dream of.",
-            image: computer,
+            description: "This portfolio website is also considered one my projects. Using React I was able to create things that HTML and CSS couldn't dream of. This is version 2",
+            image: myportfolio,
             link: "https://github.com/Guilhermeccm/portfolio-v2"
         }
     ]
@@ -53,7 +55,7 @@ function Projects() {
                     <div className='projects-row-content'>
                         <h3 className='projects-row-content-title'>{currentProject.name}</h3>
                         <p className='projects-row-content-description'>{currentProject.description}</p>
-                        <a href={currentProject.link} className='button' target='_blank' rel='noreferrer'>Case Study</a>
+                        <a href={currentProject.link} className='button' target='_blank' rel='noreferrer'>Check It Out!</a>
                     </div>
                     <button className='arrow-button' onClick={goToNextProject}>{">"}</button>
                 </div>
